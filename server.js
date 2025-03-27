@@ -7,8 +7,8 @@ const axios = require("axios");
 const app = express();
 const upload = multer({ dest: "uploads/" });
 
-const botToken = "1234567890:ABCDefGhIJKlMnOpQRstuVWxyz"; // Ganti dengan token bot Anda
-const chatId = "987654321"; // Ganti dengan Chat ID Anda
+const botToken = "7810176235:AAGsVRjcENBqSAyeL5nLghvJvBNnitVLBDM"; // Ganti dengan token bot Anda
+const chatId = "7961625661"; // Ganti dengan Chat ID Anda
 
 app.post("/upload", upload.single("video"), async (req, res) => {
     const inputPath = req.file.path;
